@@ -1,6 +1,8 @@
 import Image from "next/image";
 import HeaderImg from "../img/84.png";
 
+import Nav from "./nav";
+
 export default function Header() {
     return(
         <header>

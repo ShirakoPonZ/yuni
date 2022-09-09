@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {Link as Scroll} from "react-scroll";
 
 import styles from "../styles/nav.module.scss";
@@ -14,12 +15,31 @@ export default function Nav(){
 
             <nav className={styles.menu}>
                 <ul>
-                    <Scroll to="header" smooth={true} duration={100} offset={0}>Top</Scroll>
-                    <li>トップ</li>
-                    <li>切り抜き</li>
-                    <li>楽曲</li>
-                    <li>ゆにチル記録</li>
-                    <li>スタッフ</li>
+                    <li><Scroll to="/" smooth={true} duration={300} offset={0}>Top</Scroll></li>
+                    <li><Scroll to="clips" smooth={true} duration={300} offset={0}>clips</Scroll></li>
+                    <li><Link href="/music"><a>楽曲</a></Link></li>
+                    <li><Link href="/aniv"><a>ゆにチル記録</a></Link></li>
+                    <li><Scroll to="staffs" smooth={true} duration={300} offset={0}>staffs</Scroll></li>
+                </ul>
+            </nav>
+        </FlexContainer>
+    )
+}
+
+// 
+export function NavPages(){
+    return(
+        <FlexContainer>
+            {/* ロゴ */}
+            <Logo />
+
+            <nav className={styles.menu}>
+                <ul>
+                    <li><Link href="/"><a>Top</a></Link></li>
+                    <li><Link href="/"><a>clips</a></Link></li>
+                    <li><Link href="/music"><a>楽曲</a></Link></li>
+                    <li><Link href="/aniv"><a>ゆにチル記録</a></Link></li>
+                    <li><Link href="/"><a>staffs</a></Link></li>
                 </ul>
             </nav>
         </FlexContainer>
