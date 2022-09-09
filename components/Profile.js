@@ -7,6 +7,7 @@ import origin from "../img/origin.jpg";
 import autumn from "../img/autumn.png";
 import clear from "../img/clear.png";
 import evolve from "../img/evolve.png";
+import eternal from "../img/eternal.png";
 
 export default function Profile() {
     return(
@@ -44,6 +45,15 @@ export default function Profile() {
                 <figure style={{ width: "300px"  }}>
                 <Image
                     src={evolve}
+                    layout="responsive"
+                    alt="origin"
+                    priority
+                />
+                </figure>
+
+                <figure style={{ width: "300px"  }}>
+                <Image
+                    src={eternal}
                     layout="responsive"
                     alt="origin"
                     priority
