@@ -1,9 +1,16 @@
-// twitterライブラリ
+// twitterライブラリ ツイート読み込み
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 export default function Clips(){
     return(
-        <div className="clips">
-            <p>clips</p>
-        </div>
+        <>
+            <h1>clips</h1>
+            <div className="clips">
+                <TwitterTweetEmbed
+                    tweetId={'1540258427703660544'}
+                />
+            </div>
+            <button>more</button>
+        </>
     )
 }
