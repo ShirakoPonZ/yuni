@@ -26,7 +26,7 @@ export default function Links() {
                             objectFit
                         />
                     </figure>
-
+                </a>
 
                 <a target="_blank" rel="noreferrer" href="https://twitter.com/_YuNiofficial_">
                     <figure>
@@ -37,7 +37,6 @@ export default function Links() {
                             objectFit
                         />
                     </figure>
-                </a>
                 </a>
             </div>
 

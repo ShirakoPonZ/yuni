@@ -10,6 +10,15 @@ export default function FlexContainer({ children }){
 }
 
 
+// profileコンテナ―
+export function ProfileContainer({ children }){
+    return(
+        <div className={styles.profileContainer}>
+            {children}
+        </div>
+    )
+}
+
 // Linksコンテナ―
 export function LinkContainer({ children }){
     return(

@@ -1,7 +1,9 @@
 // スタイル読み込み
-import styles from "../styles/profile.module.scss"
+import styles from "../styles/profile.module.scss";
 
 import Image from "next/image";
+
+import { ProfileContainer } from "./flexContainer";
 // 立ち絵読み込み
 import origin from "../img/origin.jpg";
 import autumn from "../img/autumn.png";
@@ -13,9 +15,9 @@ export default function Profile() {
     return(
         <>
             <h1>Profile</h1>
-            <div className={styles.profileContainer}>
+            <ProfileContainer>
                 <div className={styles.illust}>
-                    <figure style={{ width: "300px"  }}>
+                    <figure style={{ width: "500px"  }}>
                         <Image
                             src={origin}
                             layout="responsive"
@@ -24,7 +26,7 @@ export default function Profile() {
                         />
                     </figure>
 
-                    <figure style={{ width: "300px"  }}>
+                    <figure style={{ width: "400px"  }}>
                     <Image
                         src={autumn}
                         layout="responsive"
@@ -34,7 +36,7 @@ export default function Profile() {
                     </figure>
 
 
-                    <figure style={{ width: "300px"  }}>
+                    <figure style={{ width: "400px"  }}>
                     <Image
                         src={clear}
                         layout="responsive"
@@ -43,7 +45,7 @@ export default function Profile() {
                     />
                     </figure>
 
-                    <figure style={{ width: "300px"  }}>
+                    <figure style={{ width: "400px"  }}>
                     <Image
                         src={evolve}
                         layout="responsive"
@@ -52,7 +54,7 @@ export default function Profile() {
                     />
                     </figure>
 
-                    <figure style={{ width: "300px"  }}>
+                    <figure style={{ width: "400px"  }}>
                     <Image
                         src={eternal}
                         layout="responsive"
@@ -64,15 +66,13 @@ export default function Profile() {
 
 
                 <div className={styles.profile}>
-                    <p>profile</p>
-
                     <img src="" alt="origin" />
                     <img src="" alt="autumn" />
                     <img src="" alt="evolve" />
                     <img src="" alt="eternal" />
                     <img src="" alt="clear" />
                 </div>
-            </div>
+            </ProfileContainer>
         </>
     )
 }
