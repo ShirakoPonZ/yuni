@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { NavPages } from "../components/nav";
 
+// import styles from "";
+
 export default function Aniv(){
     return(
         <>
@@ -24,7 +26,11 @@ export default function Aniv(){
             </div>
 
             <div>
-                記録記入
+                <table>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
             </div>
         </>
     )

@@ -1,0 +1,26 @@
+@use "utils.module";
+
+
+.sideBySideCenter{
+    figure{
+        width: 300px;
+        
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+}
+
+// 公式サイトリンク
+.officialLink{
+    width: 100%;
+
+    a{
+        color: yellowgreen;
+        text-decoration: none;
+
+        &:hover{
+            color: black;
+        }
+    }
+}
