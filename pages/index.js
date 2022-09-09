@@ -1,3 +1,5 @@
+import styles from "../styles/index.module.scss";
+
 import Nav from "../components/nav";
 import Profile from "../components/Profile";
 import Links from "../components/links";
@@ -7,8 +9,7 @@ import Staff from "../components/staff";
 export default function Home() {
   return (
     <>
-      <main>
-
+      <main className={styles.mainContainer}>
         {/* ナビゲーション */}
         <Nav />
 
