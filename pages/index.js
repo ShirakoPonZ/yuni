@@ -1,4 +1,4 @@
-import styles from "../styles/index.module.scss";
+import Container from "../components/container";
 
 import Nav from "../components/nav";
 import Profile from "../components/Profile";
@@ -9,21 +9,23 @@ import Staff from "../components/staff";
 export default function Home() {
   return (
     <>
-      <main className={styles.mainContainer}>
+      <main>
         {/* ナビゲーション */}
         <Nav />
 
-        {/* YuNiプロフィール */}
-        <Profile />
+        <Container>
+          {/* YuNiプロフィール */}
+          <Profile />
 
-        {/* 各種リンク */}
-        <Links />
+          {/* 各種リンク */}
+          <Links />
 
-        {/* Twitter切り抜き */}
-        <Clips />
+          {/* Twitter切り抜き */}
+          <Clips />
 
-        {/* スタッフ */}
-        <Staff />
+          {/* スタッフ */}
+          <Staff />
+        </Container>
 
       </main>
     </>

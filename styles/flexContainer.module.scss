@@ -1,18 +1,13 @@
-.twoColumns{
-    display: flex;
-    justify-content: space-between;
-}
-
 // プロフィールコンテナ―
 .flexContainer{
+    height: 100%;
+    width: 100%;
     position: sticky;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     align-items: center;
+    // 要調整
+    box-shadow: 2px 2px 15px 2px rgba(#000, 0.3);
 }
 
 // リンクコンテナ―
-.linksContainer{
-
-}

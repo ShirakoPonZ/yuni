@@ -11,20 +11,18 @@ import Container from "./container";
 export default function Nav(){
     return(
     <>
-        <Container large>
-            <FlexContainer>
-                <Logo />
-                <nav className={styles.menu}>
-                    <ul>
-                        <li><Scroll to="/" smooth={true} duration={300} offset={0}>Top</Scroll></li>
-                        <li><Scroll to="clips" smooth={true} duration={300} offset={0}>clips</Scroll></li>
-                        <li><Link href="/music"><a>楽曲</a></Link></li>
-                        <li><Link href="/aniv"><a>ゆにチル記録</a></Link></li>
-                        <li><Scroll to="staffs" smooth={true} duration={300} offset={0}>staffs</Scroll></li>
-                    </ul>
-                </nav>
-            </FlexContainer>
-        </Container>
+        <FlexContainer>
+            <Logo />
+            <nav className={styles.menu}>
+                <ul>
+                    <li><Scroll to="/" smooth={true} duration={300} offset={0}>Top</Scroll></li>
+                    <li><Scroll to="clips" smooth={true} duration={300} offset={0}>clips</Scroll></li>
+                    <li><Link href="/music"><a>楽曲</a></Link></li>
+                    <li><Link href="/aniv"><a>ゆにチル記録</a></Link></li>
+                    <li><Scroll to="staffs" smooth={true} duration={300} offset={0}>staffs</Scroll></li>
+                </ul>
+            </nav>
+        </FlexContainer>
     </>
     )
 }
