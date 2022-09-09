@@ -11,66 +11,68 @@ import eternal from "../img/eternal.png";
 
 export default function Profile() {
     return(
-        <div className={styles.profileContainer}>
-                <h1>Profile</h1>
-            <div className={styles.illust}>
-                <figure style={{ width: "300px"  }}>
+        <>
+            <h1>Profile</h1>
+            <div className={styles.profileContainer}>
+                <div className={styles.illust}>
+                    <figure style={{ width: "300px"  }}>
+                        <Image
+                            src={origin}
+                            layout="responsive"
+                            alt="origin"
+                            priority
+                        />
+                    </figure>
+
+                    <figure style={{ width: "300px"  }}>
                     <Image
-                        src={origin}
+                        src={autumn}
                         layout="responsive"
                         alt="origin"
                         priority
                     />
-                </figure>
-
-                <figure style={{ width: "300px"  }}>
-                <Image
-                    src={autumn}
-                    layout="responsive"
-                    alt="origin"
-                    priority
-                />
-                </figure>
+                    </figure>
 
 
-                <figure style={{ width: "300px"  }}>
-                <Image
-                    src={clear}
-                    layout="responsive"
-                    alt="origin"
-                    priority
-                />
-                </figure>
+                    <figure style={{ width: "300px"  }}>
+                    <Image
+                        src={clear}
+                        layout="responsive"
+                        alt="origin"
+                        priority
+                    />
+                    </figure>
 
-                <figure style={{ width: "300px"  }}>
-                <Image
-                    src={evolve}
-                    layout="responsive"
-                    alt="origin"
-                    priority
-                />
-                </figure>
+                    <figure style={{ width: "300px"  }}>
+                    <Image
+                        src={evolve}
+                        layout="responsive"
+                        alt="origin"
+                        priority
+                    />
+                    </figure>
 
-                <figure style={{ width: "300px"  }}>
-                <Image
-                    src={eternal}
-                    layout="responsive"
-                    alt="origin"
-                    priority
-                />
-                </figure>
+                    <figure style={{ width: "300px"  }}>
+                    <Image
+                        src={eternal}
+                        layout="responsive"
+                        alt="origin"
+                        priority
+                    />
+                    </figure>
+                </div>
+
+
+                <div className={styles.profile}>
+                    <p>profile</p>
+
+                    <img src="" alt="origin" />
+                    <img src="" alt="autumn" />
+                    <img src="" alt="evolve" />
+                    <img src="" alt="eternal" />
+                    <img src="" alt="clear" />
+                </div>
             </div>
-
-
-            <div className={styles.profile}>
-                <p>profile</p>
-
-                <img src="" alt="origin" />
-                <img src="" alt="autumn" />
-                <img src="" alt="evolve" />
-                <img src="" alt="eternal" />
-                <img src="" alt="clear" />
-            </div>
-        </div>
+        </>
     )
 }
