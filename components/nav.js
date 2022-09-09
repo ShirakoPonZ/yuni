@@ -9,6 +9,7 @@ import FlexContainer from "./flexContainer";
 
 export default function Nav(){
     return(
+    <>
         <FlexContainer>
             {/* ロゴ */}
             <Logo />
@@ -23,6 +24,7 @@ export default function Nav(){
                 </ul>
             </nav>
         </FlexContainer>
+    </>
     )
 }
 

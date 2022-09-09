@@ -1,3 +1,8 @@
+.twoColumns{
+    display: flex;
+    justify-content: space-between;
+}
+
 .flexContainer{
     position: sticky;
     display: flex;

@@ -12,8 +12,8 @@ import eternal from "../img/eternal.png";
 export default function Profile() {
     return(
         <div className={styles.profileContainer}>
-            <div className={styles.illust}>
                 <h1>Profile</h1>
+            <div className={styles.illust}>
                 <figure style={{ width: "300px"  }}>
                     <Image
                         src={origin}
