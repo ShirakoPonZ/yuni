@@ -15,6 +15,7 @@ export default function Home() {
 
         <Container>
           {/* YuNiプロフィール */}
+        
           <Profile />
 
           {/* 各種リンク */}
