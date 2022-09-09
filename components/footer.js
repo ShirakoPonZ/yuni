@@ -1,6 +1,8 @@
+import styles from "../styles/footer.module.scss";
+
 export default function Footer() {
     return(
-        <div id='copy'>
+        <div id={styles.copy}>
             <h3>プライバシーポリシー</h3>
             <ul>
                 <li>当サイトはYuNiさんの<strong>非公式</strong>ファンサイトです。</li>
