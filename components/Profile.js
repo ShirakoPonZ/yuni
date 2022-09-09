@@ -11,7 +11,7 @@ import evolve from "../img/evolve.png";
 export default function Profile() {
     return(
         <div className={styles.profileContainer}>
-            <div>
+            <div className={styles.illust}>
                 <h1>Profile</h1>
                 <figure style={{ width: "300px"  }}>
                     <Image
@@ -52,7 +52,9 @@ export default function Profile() {
             </div>
 
 
-            <div className='icons'>
+            <div className={styles.profile}>
+                <p>profile</p>
+
                 <img src="" alt="origin" />
                 <img src="" alt="autumn" />
                 <img src="" alt="evolve" />
