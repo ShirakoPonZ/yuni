@@ -14,6 +14,8 @@ export default function Profile() {
     return(
         <>
             <h1>Profile</h1>
+
+            <div className={styles.sideBySideCenter}>
                 <div className={styles.illust}>
                     <figure>
                         <Image
@@ -70,6 +72,7 @@ export default function Profile() {
                     <img src="" alt="eternal" />
                     <img src="" alt="clear" />
                 </div>
+            </div>
         </>
     )
 }

@@ -1,6 +1,10 @@
-.illust{
+@use "utils.module.scss";
+
+.sideBySideCenter{
     
-    figure{
-        width: 400px;
+    .illust{
+        figure{
+            width: 400px;
+        }
     }
 }
