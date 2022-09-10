@@ -1,15 +1,16 @@
 import Image from "next/image";
-import logoImg from "../img/favicon.png"
+import logoImg from "../img/YuNi_.png";
 
 export default function Logo(){
     return(
-        <Image 
-            src={logoImg}
-            width={100}
-            height={100}
-            placeholder="blur"
-            style={{ transition: "0.2s" }}
-            priority
-        />
+        <figure style={{ width: "180px" }}>
+            <Image 
+                src={logoImg}
+                layout="responsive"
+                placeholder="blur"
+                style={{ transition: "0.2s" }}
+                priority
+            />
+        </figure>
     )
 }
