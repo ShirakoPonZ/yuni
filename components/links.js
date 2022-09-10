@@ -2,8 +2,6 @@ import styles from "../styles/links.module.scss";
 
 import Image from "next/image";
 
-import { LinkContainer } from "./flexContainer";
-
 import youtubeIcon from "../img/youtube_logo.png";
 import twitterIcon from "../img/twitter_logo.png";
 import tiktokIcon from "../img/tiktok_logo.svg";
@@ -14,7 +12,6 @@ export default function Links() {
     return(
     <>
         <h1 className={styles.linksTitle}>Links</h1>
-        <LinkContainer>
             <div className={styles.sideBySideCenter}>
                 <a target="_blank" rel="noreferrer" href="https://www.youtube.com/c/YuNivirtualsinger">
                     <figure>
@@ -65,7 +62,6 @@ export default function Links() {
             <div className={styles.officialLink}>
                 <a target="_blank" rel="noreferrer" href="https://yunionwave.com/">YuNiオフィシャルサイト</a>
             </div>
-        </LinkContainer>
     </>
 
     )

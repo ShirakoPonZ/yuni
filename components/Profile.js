@@ -3,7 +3,6 @@ import styles from "../styles/profile.module.scss";
 
 import Image from "next/image";
 
-import { ProfileContainer } from "./flexContainer";
 // 立ち絵読み込み
 import origin from "../img/origin.jpg";
 import autumn from "../img/autumn.png";
@@ -15,9 +14,8 @@ export default function Profile() {
     return(
         <>
             <h1>Profile</h1>
-            <ProfileContainer>
                 <div className={styles.illust}>
-                    <figure style={{ width: "500px"  }}>
+                    <figure>
                         <Image
                             src={origin}
                             layout="responsive"
@@ -26,7 +24,7 @@ export default function Profile() {
                         />
                     </figure>
 
-                    <figure style={{ width: "400px"  }}>
+                    <figure>
                     <Image
                         src={autumn}
                         layout="responsive"
@@ -72,7 +70,6 @@ export default function Profile() {
                     <img src="" alt="eternal" />
                     <img src="" alt="clear" />
                 </div>
-            </ProfileContainer>
         </>
     )
 }
