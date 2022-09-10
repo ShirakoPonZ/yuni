@@ -8,14 +8,15 @@
         li{
             text-align: center;
             list-style: none;
-            cursor: pointer;
 
             a{
-                padding: 13px 26px;
-                font-size: 1.4em;
+                padding: var(--space-xs) var(--space-sm);
+                font-size: var(--small-heading2);
                 color: #000;
                 text-align: center;
                 text-decoration: none;
+                cursor: pointer;
+
 
                 &:hover{
                     // 後で調整する
