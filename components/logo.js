@@ -6,7 +6,6 @@ export default function Logo(){
         <figure style={{ width: "180px" }}>
             <Image 
                 src={logoImg}
-                layout="responsive"
                 placeholder="blur"
                 style={{ transition: "0.2s" }}
                 priority

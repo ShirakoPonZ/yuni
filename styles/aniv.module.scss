@@ -1,20 +1,39 @@
 @use "utils.module.scss";
 
-.sideBySideCenter{
 
+.sideBySide{
+    @media (max-width: 1000px){
+        text-align: center;
+    }
     figure{
-        width: 40vw;
+        width: 50vw;
+        @media (max-width: 1000px){
+            width: 70vw;
+        }
     }
 
     div{
+        width: 100%;
 
         h1{
-            font-size: var(--heading2);
+
         }
 
         p{
-            margin: var(--space-xs) 0;
+            margin-bottom: var(--space-xs);
             font-size: var(--body);
+        }
+    }
+
+    .participationList{
+        font-weight: bold;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 118px 118px 118px;
+        
+        span{
+            font-size: var(--body);
+            margin: 3px 0;
         }
     }
 }

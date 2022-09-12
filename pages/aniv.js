@@ -11,9 +11,10 @@ export default function Aniv(){
     return(
         <>
             <NavPages />
-            <Container>
+            <h1>♪YuNiBirth記念企画♪</h1>
+            <Container large>
                 {/* 二列スタイルを適用 */}
-                <div className={styles.sideBySideCenter}>
+                <div className={styles.sideBySide}>
                     <figure>
                         <Image
                             src={ilandImg}
@@ -22,11 +23,77 @@ export default function Aniv(){
                         />
                     </figure>
                     <div>
-                        <h1>♪YuNiBirth記念企画♪</h1>
 
                         <p>誕生日を祝して「スコットランド デュナンズ城城主の権利」を進呈します。</p>
                         <p>制定日: 2022年10月1日</p>
                         <p>今後のご健康とご多幸を、心よりお祈り申し上げます。</p>
+
+                        <div className={styles.participationList}>
+                            <span>☘4190kappakun</span>
+                            <span>☘a1dnoah</span>
+                            <span>☘himazin03</span>
+                            <span>☘HIRA</span>
+                            <span>☘KOU</span>
+                            <span>☘Nao</span>
+                            <span>☘pacific</span>
+                            <span>☘Ray</span>
+                            <span>☘sardonyx</span>
+                            <span>☘simira</span>
+                            <span>☘YUMA</span>
+                            <span>☘Yuu</span>
+                            <span>☘アーガス*</span>
+                            <span>☘あお</span>
+                            <span>☘アッピー</span>
+                            <span>☘イリエッタ</span>
+                            <span>☘えべんか だろく</span>
+                            <span>☘カーマ</span>
+                            <span>☘カミュ</span>
+                            <span>☘カンパリ</span>
+                            <span>☘クロム</span>
+                            <span>☘けつくん</span>
+                            <span>☘ケンスキー</span>
+                            <span>☘コゥ</span>
+                            <span>☘こんごう</span>
+                            <span>☘さいしゅん</span>
+                            <span>☘じぇん</span>
+                            <span>☘シン</span>
+                            <span>☘たけまる</span>
+                            <span>☘てんまる</span>
+                            <span>☘トミー</span>
+                            <span>☘ねむりすい</span>
+                            <span>☘ノーバディ</span>
+                            <span>☘ひしにゃん</span>
+                            <span>☘ひで坊</span>
+                            <span>☘ひとっさん</span>
+                            <span>☘ぴよぴよ丸</span>
+                            <span>☘フィルゼ</span>
+                            <span>☘ふうか</span>
+                            <span>☘ふうぬ</span>
+                            <span>☘ふみ</span>
+                            <span>☘ホクホク</span>
+                            <span>☘みろく</span>
+                            <span>☘もぐら</span>
+                            <span>☘やきさばぱん</span>
+                            <span>☘ヤドラン</span>
+                            <span>☘ヤン</span>
+                            <span>☘ゆずりんご</span>
+                            <span>☘ゆんすけ</span>
+                            <span>☘ラクダ</span>
+                            <span>☘リア</span>
+                            <span>☘ルーデン</span>
+                            <span>☘レンチ</span>
+                            <span>☘葵</span>
+                            <span>☘甘党侍</span>
+                            <span>☘小石　音瑠</span>
+                            <span>☘蒼冥</span>
+                            <span>☘馳龍-RYU-</span>
+                            <span>☘羽山</span>
+                            <span>☘白狐丸</span>
+                            <span>☘星桜</span>
+                            <span>☘和風ミルク</span>
+                            <span></span>
+                        </div>
+                        <p>他 ゆにチル一同</p>
                     </div>
                 </div>
 

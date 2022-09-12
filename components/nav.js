@@ -5,7 +5,6 @@ import styles from "../styles/nav.module.scss";
 
 import Logo from "./logo";
 import FlexContainer from "./flexContainer";
-import Container from "./container";
 
 
 export default function Nav(){
@@ -31,8 +30,6 @@ export default function Nav(){
 export function NavPages(){
     return(
         <FlexContainer>
-            <Container large>
-            {/* ロゴ */}
             <Logo />
 
             <nav className={styles.menu}>
@@ -44,7 +41,6 @@ export function NavPages(){
                     <li><Link href="/"><a>staffs</a></Link></li>
                 </ul>
             </nav>
-            </Container>
         </FlexContainer>
     )
 }
