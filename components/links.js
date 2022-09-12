@@ -12,7 +12,7 @@ export default function Links() {
     return(
     <>
         <h1 className={styles.linksTitle}>Links</h1>
-            <div className={styles.sideBySideCenter}>
+            <div className={styles.GridStyle}>
                 <a target="_blank" rel="noreferrer" href="https://www.youtube.com/c/YuNivirtualsinger">
                     <figure>
                         <Image
@@ -34,10 +34,8 @@ export default function Links() {
                         />
                     </figure>
                 </a>
-            </div>
 
 
-            <div className={styles.sideBySideCenter}>
                 <a target="_blank" rel="noreferrer" href="https://yunionwave.booth.pm/">
                     <figure>
                     <Image
@@ -62,6 +60,7 @@ export default function Links() {
             <div className={styles.officialLink}>
                 <a target="_blank" rel="noreferrer" href="https://yunionwave.com/">YuNiオフィシャルサイト</a>
             </div>
+
     </>
 
     )

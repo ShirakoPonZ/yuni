@@ -1,10 +1,10 @@
 @use "utils.module";
 
 
-.sideBySideCenter{
+.GridStyle{
+    width: 100%;
     figure{
-        width: 300px;
-        
+        width: 100%;
         &:hover{
             opacity: 0.6;
         }
@@ -14,10 +14,10 @@
 // 公式サイトリンク
 .officialLink{
     width: 100%;
-
+    text-align: center;
+    margin-top: var(--space-xs);
     a{
         color: yellowgreen;
-        text-decoration: none;
 
         &:hover{
             color: black;
