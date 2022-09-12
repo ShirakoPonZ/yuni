@@ -11,8 +11,8 @@ export default function Aniv(){
     return(
         <>
             <NavPages />
-            <h1>♪YuNiBirth記念企画♪</h1>
             <Container large>
+                <h1>♪YuNiBirth記念企画♪</h1>
                 {/* 二列スタイルを適用 */}
                 <div className={styles.sideBySide}>
                     <figure>

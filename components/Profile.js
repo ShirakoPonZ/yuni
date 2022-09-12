@@ -11,13 +11,23 @@ import evolve from "../img/evolve.png";
 import eternal from "../img/eternal.png";
 
 export default function Profile() {
+
+    // const imgContainer = document.querySelectorAll("illust");
+    // const slideImage = [origin, autumn, clear, evolve, eternal];
+    // console.log(slideImage);
+    // let num = 0
+
+    // setInterval(1500, Figure);
+
+
     return(
         <>
             <h1>Profile</h1>
 
+            
             <div className={styles.sideBySideCenter}>
                 <div className={styles.illust}>
-                    <figure>
+                    <figure id="imageContainer">
                         <Image
                             src={origin}
                             layout="responsive"
@@ -26,7 +36,7 @@ export default function Profile() {
                         />
                     </figure>
 
-                    <figure>
+                    {/* <figure>
                     <Image
                         src={autumn}
                         layout="responsive"
@@ -61,16 +71,18 @@ export default function Profile() {
                         alt="origin"
                         priority
                     />
-                    </figure>
+                    </figure> */}
+
+                    <div className={styles.profile}>
+                        <img src="" alt="origin" />
+                        <img src="" alt="autumn" />
+                        <img src="" alt="evolve" />
+                        <img src="" alt="eternal" />
+                        <img src="" alt="clear" />
+                    </div>
                 </div>
-
-
-                <div className={styles.profile}>
-                    <img src="" alt="origin" />
-                    <img src="" alt="autumn" />
-                    <img src="" alt="evolve" />
-                    <img src="" alt="eternal" />
-                    <img src="" alt="clear" />
+                <div>
+                    プロフィール
                 </div>
             </div>
         </>
