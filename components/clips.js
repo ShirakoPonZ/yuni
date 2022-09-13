@@ -20,7 +20,10 @@ export default function Clips(){
                     tweetId={"1509833271513088000"}
                 />
             </div>
-            <button>more</button>
+
+            <div className={styles.linksButton}>
+                <button>more</button>
+            </div>
         </>
     )
 }
