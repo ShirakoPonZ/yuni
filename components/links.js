@@ -11,7 +11,7 @@ import boothIcon from "../img/booth_logo.png";
 export default function Links() {
     return(
     <>
-        <h1 className={styles.linksTitle}>Links</h1>
+        <h1>Links</h1>
             <div className={styles.GridStyle}>
                 <a target="_blank" rel="noreferrer" href="https://www.youtube.com/c/YuNivirtualsinger">
                     <figure>
