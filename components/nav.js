@@ -15,6 +15,7 @@ export default function Nav(){
             <nav className={styles.menu}>
                 <ul>
                     <li><Scroll to="/" smooth={true} duration={300} offset={10}>Top</Scroll></li>
+                    <li><Scroll to=".linksTitle" smooth={true} duration={300} offset={10}>links</Scroll></li>
                     <li><Scroll to="clips" smooth={true} duration={300} offset={10}>clips</Scroll></li>
                     <li><Link href="/music"><a>楽曲</a></Link></li>
                     <li><Link href="/aniv"><a>ゆにチル記録</a></Link></li>

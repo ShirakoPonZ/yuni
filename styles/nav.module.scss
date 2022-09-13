@@ -4,14 +4,16 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        flex-wrap: wrap;
 
         li{
             text-align: center;
             list-style: none;
 
             a{
-                padding: var(--space-xs) var(--space-sm);
-                font-size: var(--small-heading2);
+                // paddingトfont-size要調整
+                padding: 4vh 1vw;
+                font-size: calc(3vw * 0.75);
                 color: #000;
                 text-align: center;
                 text-decoration: none;
