@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Staff = () => {
+export const Staff = () => {
     return (
         <div>Staff</div>
     )

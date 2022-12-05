@@ -1,4 +1,4 @@
-const Header = () => {
+export const Header = () => {
     return (
         <header>
             <div>スライド</div>

@@ -1,0 +1,25 @@
+.Container {
+  list-style: none;
+  background-color: rgba(171, 255, 177, 0.3);
+  padding: 38px 30px;
+  font-family: "Knewave", cursive;
+  font-family: "Murecho", sans-serif;
+}
+.Container h1 {
+  font-size: 1.6rem;
+  text-align: left;
+}
+.Container ul {
+  list-style: none;
+  line-height: 1.5em;
+}
+.Container ul li {
+  font-size: 0.8em;
+}
+.Container ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.Container ul li a:hover {
+  opacity: 0.6;
+}
