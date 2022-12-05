@@ -1,34 +1,34 @@
-import Container from "../components/container";
-
-import Nav from "../components/nav";
-import Profile from "../components/Profile";
-import Links from "../components/links";
-import Clips from "../components/clips";
-import Staff from "../components/staff";
-
-export default function Home() {
-  return (
+const Home = () => {
+  return(
     <>
+
       <main>
-        {/* ナビゲーション */}
-        <Nav />
+        <div>
+          <div>立ち絵スライド</div>
+          <div>紹介文</div>
+        </div>
 
-        <Container>
-          {/* YuNiプロフィール */}
-        
-          <Profile />
+        <div>
+          <h1>Links</h1>
+          <div>official site link</div>
+          <ul>
+            <li>youtube</li>
+            <li>twitter</li>
+            <li>Booth</li>
+            <li>tiktok</li>
+          </ul>
+        </div>
 
-          {/* 各種リンク */}
-          <Links />
+        <div>
+          <div>Clips</div>
+        </div>
 
-          {/* Twitter切り抜き */}
-          <Clips />
-
-          {/* スタッフ */}
-          <Staff />
-        </Container>
-
+        <div>
+          <h1>Staff</h1>
+        </div>
       </main>
     </>
   )
 }
+
+export default Home;
